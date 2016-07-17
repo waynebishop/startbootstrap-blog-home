@@ -39,7 +39,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Start Bootstrap</a>
+                <a class="navbar-brand" href="#">Spin City Cricket Club</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -54,6 +54,10 @@
                         <a href="#">Contact</a>
                     </li>
                 </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span class="glyphicon glyphicon-user"></span> Register</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                </ul>
             </div>
             <!-- /.navbar-collapse -->
         </div>
@@ -65,22 +69,36 @@
 
         <div class="row">
 
-            <!-- Blog Entries Column -->
+            <!-- Blog Entries Column - takes up 8 of 12 columns -->
             <div class="col-md-8">
 
+                  <!-- Blog Search Well -->
+                 <div class="well">
+                    <h4>Blog Search</h4>
+                    <div class="input-group">
+                        <input type="text" class="form-control">
+                        <span class="input-group-btn">
+                            <button class="btn btn-default" type="button">
+                                <span class="glyphicon glyphicon-search"></span>
+                        </button>
+                        </span>
+                    </div>
+                    <!-- /.input-group -->
+                </div>   
+
                 <h1 class="page-header">
-                    Page Heading
-                    <small>Secondary Text</small>
+                    Captains Blog
+                    <small>Reports &amp; Chat</small>
                 </h1>
 
                 <!-- First Blog Post -->
                 <h2>
-                    <a href="#">Blog Post Title</a>
+                    <a href="#">Premiere 1 win game One</a>
                 </h2>
                 <p class="lead">
-                    by <a href="index.php">Start Bootstrap</a>
+                    by <a href="index.php">Craig Shanks</a>
                 </p>
-                <p><span class="glyphicon glyphicon-time"></span> Posted on August 28, 2013 at 10:00 PM</p>
+                <p><span class="glyphicon glyphicon-time"></span> Posted on October 28, 2016 at 10:00 PM</p>
                 <hr>
                 <img class="img-responsive" src="http://placehold.it/900x300" alt="">
                 <hr>
@@ -91,10 +109,10 @@
 
                 <!-- Second Blog Post -->
                 <h2>
-                    <a href="#">Blog Post Title</a>
+                    <a href="#">Premiere 2 win at J'ville</a>
                 </h2>
                 <p class="lead">
-                    by <a href="index.php">Start Bootstrap</a>
+                    by <a href="index.php">Trever Nerk</a>
                 </p>
                 <p><span class="glyphicon glyphicon-time"></span> Posted on August 28, 2013 at 10:45 PM</p>
                 <hr>
@@ -107,10 +125,10 @@
 
                 <!-- Third Blog Post -->
                 <h2>
-                    <a href="#">Blog Post Title</a>
+                    <a href="#">Colts off to great start</a>
                 </h2>
                 <p class="lead">
-                    by <a href="index.php">Start Bootstrap</a>
+                    by <a href="index.php">Some Kid</a>
                 </p>
                 <p><span class="glyphicon glyphicon-time"></span> Posted on August 28, 2013 at 10:45 PM</p>
                 <hr>
@@ -133,11 +151,11 @@
 
             </div>
 
-            <!-- Blog Sidebar Widgets Column -->
+            <!-- Blog Sidebar Widgets Column - takes up 4 columns. For mobile topnav changes to hamburger & side bar stacks underneath -->
             <div class="col-md-4">
 
                 <!-- Blog Search Well -->
-                <div class="well">
+                <!-- <div class="well">
                     <h4>Blog Search</h4>
                     <div class="input-group">
                         <input type="text" class="form-control">
@@ -146,38 +164,90 @@
                                 <span class="glyphicon glyphicon-search"></span>
                         </button>
                         </span>
-                    </div>
+                    </div> -->
                     <!-- /.input-group -->
-                </div>
+                <!--</div> -->
 
                 <!-- Blog Categories Well -->
                 <div class="well">
-                    <h4>Blog Categories</h4>
+                    
                     <div class="row">
+
                         <div class="col-lg-6">
+                            <h3>Teams</h3>
+                            <h4>Senior</h4>  
                             <ul class="list-unstyled">
-                                <li><a href="#">Category Name</a>
+                                <li><a href="#">Premier 1</a>
                                 </li>
-                                <li><a href="#">Category Name</a>
+                                <li><a href="#">Premier 2</a>
                                 </li>
-                                <li><a href="#">Category Name</a>
+                                <li><a href="#">3rd Grade</a>
                                 </li>
-                                <li><a href="#">Category Name</a>
+                                <li><a href="#">20/20 Tigers</a>
+                                </li>
+                                <li><a href="#">20/20 Bobcats</a>
+                                </li>
+                                <li><a href="#">20/20 Oldfarts</a>
+                                </li>
+                            </ul>
+
+                            <h4>Juniors</h4>  
+                            <ul class="list-unstyled">
+                                <li><a href="#">Grade 5 Thunder</a>
+                                </li>
+                                <li><a href="#">Grade 5 Roar</a>
+                                </li>
+                                <li><a href="#">Grade 6 Phoenix</a>
+                                </li>
+                                <li><a href="#">Grade 6 Superkings</a>
+                                </li>
+                                <li><a href="#">Grade 7 Hurricanes</a>
+                                </li>
+                                <li><a href="#">Grade 7 Big-Hitters</a>
                                 </li>
                             </ul>
                         </div>
                         <!-- /.col-lg-6 -->
                         <div class="col-lg-6">
+                            <h3>Authors</h3>
+                            <h4>Senior</h4>
                             <ul class="list-unstyled">
-                                <li><a href="#">Category Name</a>
+                                <li><a href="#">Craig Shanks</a>
                                 </li>
-                                <li><a href="#">Category Name</a>
+                                <li><a href="#">Trevor Nerk</a>
                                 </li>
-                                <li><a href="#">Category Name</a>
+                                <li><a href="#">Jack Shite</a>
                                 </li>
-                                <li><a href="#">Category Name</a>
+                                <li><a href="#">Kane Williamson</a>
+                                </li>
+                                <li><a href="#">Mahatma Ghandi</a>
+                                </li>
+                                <li><a href="#">Ronald MacDondald</a>
                                 </li>
                             </ul>
+
+                            <h4>Junior</h4>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Dave Martin</a>
+                                </li>
+                                <li><a href="#">Tracy Smith</a>
+                                </li>
+                                <li><a href="#">John Key</a>
+                                </li>
+                                <li><a href="#">Tom Selleck</a>
+                                </li>
+                                <li><a href="#">Robert Downey</a>
+                                </li>
+                                <li><a href="#">Sammy Sparrow</a>
+                                </li>
+                            </ul>
+
+
+
+
+
+
+
                         </div>
                         <!-- /.col-lg-6 -->
                     </div>
